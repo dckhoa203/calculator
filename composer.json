@@ -1,0 +1,19 @@
+{
+    "name": "kynm/hello-world",
+    "description": "the first composer package",
+    "require": {
+        "php": "7.4.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kynm\\HelloWorld\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dckhoa203",
+            "email": "khoadochi1998@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
